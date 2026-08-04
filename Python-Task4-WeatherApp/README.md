@@ -73,18 +73,17 @@ python weather_app.py
 
 ## 📸 Screenshots
 
-### Home Screen
+### 🏠 Home Screen
 
-(Add `home.png` here)
+![Home Screen](screenshots/Home.png.png)
 
-### Weather Result
+### 🌤️ Weather Result
 
-(Add `weather_result.png` here)
+![Weather Result](screenshots/weather_result.png.png)
 
-### Error Message
+### ❌ Error Message
 
-(Add `error.png` here)
-
+![Error Message](screenshots/error.png.png)
 ---
 
 ## 📖 API Used
