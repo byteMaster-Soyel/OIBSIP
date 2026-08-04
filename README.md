@@ -112,7 +112,7 @@ Screenshots for each project are available inside their respective project folde
 
 ## 👨‍💻 Author
 
-**SK Soyel**
+**Sk Soyel**
 
 📍 Kharagpur, West Bengal, India
 
