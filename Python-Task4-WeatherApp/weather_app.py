@@ -2,15 +2,17 @@ from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
 import requests
+from dotenv import load_dotenv
+import os
 
-
+load_dotenv()
 def data_get():
     city = city_name.get().strip()
     if city == "":
         messagebox.showwarning("Warning", "Please select a city.")
         return
 
-    API_key = "da309f06856ae40e2e4419b4846e0119"
+    API_key = os.getenv("API_KEY")
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_key}"
 
     try:
