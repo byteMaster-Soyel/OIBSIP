@@ -94,6 +94,6 @@ This project uses the **OpenWeatherMap API** to retrieve live weather informatio
 
 ## 👨‍💻 Author
 
-**SK Soyel**
+**Sk Soyel**
 
 Python Programming Intern – Oasis Infobyte
