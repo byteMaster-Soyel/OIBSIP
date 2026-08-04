@@ -1,5 +1,3 @@
-# OIBSIP
-<!-- Python Programming Internship Projects - Oasis Infobyte (OIBSIP) -->
 # 🌦️ Weather App
 
 A simple desktop Weather Application developed using **Python** and **Tkinter**. It fetches real-time weather information from the **OpenWeatherMap API** based on the selected Indian city.
@@ -49,7 +47,8 @@ Python-Task4-WeatherApp/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/OIBSIP.git
+
+git clone https://github.com/byteMaster-Soyel/OIBSIP.git
 ```
 
 ### 2. Go to the project folder
