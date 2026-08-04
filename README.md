@@ -1,71 +1,104 @@
-# 🌦️ Weather App
+# 🐍 Oasis Infobyte Python Programming Internship (OIBSIP)
 
-A simple desktop Weather Application developed using **Python** and **Tkinter**. It fetches real-time weather information from the **OpenWeatherMap API** based on the selected Indian city.
+Welcome to my **Python Programming Internship** repository. This repository contains the projects completed during the **Oasis Infobyte Python Programming Internship**.
+
+## 📌 About
+
+The Oasis Infobyte Python Programming Internship focuses on developing practical Python applications to enhance programming skills, problem-solving abilities, and software development experience.
+
+This repository showcases all the internship tasks completed during the internship.
 
 ---
 
-## 📌 Features
+## 📂 Repository Structure
 
-- 🌍 Select an Indian city from a dropdown list
-- 🌡️ Display current temperature (°C)
-- 🌡️ Show minimum and maximum temperature
-- 🤗 Display "Feels Like" temperature
-- ☁️ Show weather condition and description
-- 💧 Display humidity
-- 🌬️ Display wind speed
-- 📏 Display visibility (km)
-- 🎈 Display atmospheric pressure
-- ⚠️ Error handling for invalid requests and network issues
+```
+OIBSIP/
+│
+├── Python-Task1-VoiceAssistant/
+│
+├── Python-Task4-WeatherApp/
+│
+├── Python-Task5-ChatApplication/
+│
+└── README.md
+```
+
+---
+
+## 🚀 Internship Projects
+
+| Task | Project | Status |
+|------|---------|--------|
+| Task 1 | 🎙️ Voice Assistant | 🚧 In Progress |
+| Task 4 | 🌦️ Weather App | ✅ Completed |
+| Task 5 | 💬 Chat Application | 🚧 In Progress |
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Python 3
+- Python
 - Tkinter
 - Requests
+- Socket Programming
+- Speech Recognition
+- Text-to-Speech (TTS)
 - OpenWeatherMap API
+- Git
+- GitHub
 
 ---
 
-## 📂 Project Structure
+## 📖 Project Descriptions
 
-```
-Python-Task4-WeatherApp/
-│
-├── weather_app.py
-├── requirements.txt
-├── .gitignore
-├── README.md
-└── screenshots/
-```
+### 🎙️ Voice Assistant
+
+A desktop voice assistant that recognizes voice commands and performs tasks such as opening websites, searching the web, telling the current time, and more.
+
+### 🌦️ Weather App
+
+A GUI-based weather application built using **Tkinter** that fetches real-time weather information using the **OpenWeatherMap API**.
+
+**Features**
+
+- Live Weather Information
+- Temperature in Celsius
+- Weather Description
+- Humidity
+- Pressure
+- Wind Speed
+- Visibility
+- Error Handling
+
+### 💬 Chat Application
+
+A Python-based chat application that enables real-time communication between users using socket programming.
 
 ---
 
-## 🚀 Installation
+## ⚙️ Getting Started
 
-### 1. Clone the repository
+### Clone the Repository
 
 ```bash
-
-git clone https://github.com/byteMaster-Soyel/OIBSIP.git
+git clone https://github.com/YOUR_GITHUB_USERNAME/OIBSIP.git
 ```
 
-### 2. Go to the project folder
+### Navigate to the Repository
 
 ```bash
-cd OIBSIP/Python-Task4-WeatherApp
+cd OIBSIP
 ```
 
-### 3. Install the required package
+### Run Any Project
+
+Navigate to the desired project folder and execute the Python file.
+
+Example:
 
 ```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the application
-
-```bash
+cd Python-Task4-WeatherApp
 python weather_app.py
 ```
 
@@ -73,23 +106,7 @@ python weather_app.py
 
 ## 📸 Screenshots
 
-### Home Screen
-
-(Add `home.png` here)
-
-### Weather Result
-
-(Add `weather_result.png` here)
-
-### Error Message
-
-(Add `error.png` here)
-
----
-
-## 📖 API Used
-
-This project uses the **OpenWeatherMap API** to retrieve live weather information.
+Screenshots for each project are available inside their respective project folders.
 
 ---
 
@@ -97,4 +114,12 @@ This project uses the **OpenWeatherMap API** to retrieve live weather informatio
 
 **SK Soyel**
 
-Python Programming Intern – Oasis Infobyte
+📍 Kharagpur, West Bengal, India
+
+💼 Full Stack Developer | Data Analyst | Cybersecurity Enthusiast
+
+---
+
+## ⭐ Acknowledgement
+
+I sincerely thank **Oasis Infobyte** for providing this internship opportunity and practical projects that helped me strengthen my Python programming and software development skills.
