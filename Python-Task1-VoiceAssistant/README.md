@@ -111,31 +111,3 @@ python voice_assistant.py
 **SK Soyel**
 
 Python Programming Intern – Oasis Infobyte
-
-
-
-
-
-
-## 🚀 Installation
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/byteMaster-Soyel/OIBSIP.git
-
-
-
-
-
-
-
-
-
-
-
-## 👨‍💻 Author
-
-**SK Soyel**
-
-Python Programming Intern – Oasis Infobyte
