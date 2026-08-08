@@ -86,13 +86,14 @@ python voice_assistant.py
 
 ![Home Screen](screenshots/Home.png.png)
 
-### 🌤️ Weather Result
+### Screen
+🎤 Voice Command
 
-![Weather Result](screenshots/weather_result.png.png)
+![Voice Command](screenshots/weather_result.png.png)
 
-### ❌ Error Message
+📖 Wikipedia Result
 
-![Error Message](screenshots/error.png.png)
+![Wikipedia Result](screenshots/error.png.png)
 ---
 
 ### ⚠️ Notes
