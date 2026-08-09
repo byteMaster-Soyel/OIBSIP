@@ -29,6 +29,7 @@ OIBSIP/
 ---
 
 ## 🚀 Internship Projects
+
 <div align="center">
 
 | Task | Project | Status |
@@ -38,6 +39,7 @@ OIBSIP/
 | Task 5 | 💬 Chat Application | 🚧 In Progress |
 
 </div>
+
 ---
 
 ## 🛠️ Technologies Used
