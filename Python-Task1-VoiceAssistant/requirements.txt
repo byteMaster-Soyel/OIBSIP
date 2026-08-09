@@ -1,0 +1,7 @@
+SpeechRecognition
+PyWhatKit
+Wikipedia
+edge-tts
+pygame
+PyAutoGUI
+PyAudio

@@ -1,0 +1,14 @@
+# Voice Assistant generated files
+*.mp3
+*.wav
+
+# Pygame generated audio
+voice.mp3
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
