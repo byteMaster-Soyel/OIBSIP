@@ -54,7 +54,28 @@ OIBSIP/
 
 ### 🎙️ Voice Assistant
 
-A desktop voice assistant that recognizes voice commands and performs tasks such as opening websites, searching the web, telling the current time, and more.
+A desktop voice assistant developed using **Python** that recognizes voice commands and performs various tasks such as playing YouTube videos and music, opening websites and Windows applications, searching Google and YouTube, providing the current time and date, searching Wikipedia, and performing basic system operations.
+
+**Features**
+
+- 🎤 Voice Command Recognition
+- 🔊 Text-to-Speech Responses
+- ▶️ YouTube Video Playback
+- 🎵 YouTube Music Playback
+- 🕐 Current Time Information
+- 📅 Current Date Information
+- 🌐 Website Opening
+- 🔍 Google Search
+- 📺 YouTube Search
+- 📖 Wikipedia Search
+- 📝 Open Notepad
+- 🧮 Open Calculator
+- 💻 Open Command Prompt
+- 🔄 Computer Restart
+- ⏻ Computer Shutdown
+- 😊 Basic Conversation Support
+- 🛑 Voice-Based Exit Command
+- ⚠️ Speech Recognition Error Handling
 
 ### 🌦️ Weather App
 
@@ -73,7 +94,19 @@ A GUI-based weather application built using **Tkinter** that fetches real-time w
 
 ### 💬 Chat Application
 
-A Python-based chat application that enables real-time communication between users using socket programming.
+A Python-based real-time chat application built using **Socket Programming** and **Threading** that enables two users to communicate through a client-server architecture using **localhost**.
+
+**Features**
+
+- Real-Time Messaging
+- Two-User Communication
+- Client-Server Architecture
+- Timestamped Messages
+- Username Support
+- Bidirectional Communication
+- Graceful Disconnection Handling
+- Localhost Support
+- Thread-Based Communication
 
 ---
 
