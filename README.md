@@ -21,7 +21,9 @@ OIBSIP/
 │
 ├── Python-Task5-ChatApplication/
 │
+├──.gitignore
 └── README.md
+
 ```
 
 ---
