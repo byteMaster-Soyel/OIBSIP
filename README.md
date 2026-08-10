@@ -6,53 +6,69 @@ Welcome to my **Python Programming Internship** repository. This repository cont
 
 The Oasis Infobyte Python Programming Internship focuses on developing practical Python applications to enhance programming skills, problem-solving abilities, and software development experience.
 
-This repository showcases all the internship tasks completed during the internship.
+This repository showcases the internship tasks completed during the internship.
 
 ---
 
 ## 📂 Repository Structure
 
-```
+```text
 OIBSIP/
 │
 ├── Python-Task1-VoiceAssistant/
+│   ├── voice_assistant.py
+│   ├── requirements.txt
+│   ├── .gitignore
+│   ├── README.md
+│   └── screenshots/
 │
 ├── Python-Task4-WeatherApp/
+│   ├── weather_app.py
+│   ├── requirements.txt
+│   ├── .gitignore
+│   ├── README.md
+│   └── screenshots/
 │
 ├── Python-Task5-ChatApplication/
+│   ├── client.py
+│   ├── server.py
+│   ├── requirements.txt
+│   ├── .gitignore
+│   ├── README.md
+│   └── screenshots/
 │
-├──.gitignore
+├── .gitignore
 └── README.md
-
 ```
 
 ---
 
 ## 🚀 Internship Projects
 
-<div align="center">
-
-| Task | Project | Status |
-|------|---------|--------|
-| Task 1 | 🎙️ Voice Assistant | 🚧 In Progress |
-| Task 4 | 🌦️ Weather App | ✅ Completed |
-| Task 5 | 💬 Chat Application | 🚧 In Progress |
-
-</div>
+| Task   | Project             | Status      |
+| ------ | ------------------- | ----------- |
+| Task 1 | 🎙️ Voice Assistant | ✅ Completed |
+| Task 4 | 🌦️ Weather App     | ✅ Completed |
+| Task 5 | 💬 Chat Application | ✅ Completed |
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Python
-- Tkinter
-- Requests
-- Socket Programming
-- Speech Recognition
-- Text-to-Speech (TTS)
-- OpenWeatherMap API
-- Git
-- GitHub
+* Python 3
+* Tkinter
+* SpeechRecognition
+* Edge TTS
+* Pygame
+* PyWhatKit
+* Wikipedia
+* PyAutoGUI
+* Requests
+* OpenWeatherMap API
+* Socket Programming
+* Threading
+* Git
+* GitHub
 
 ---
 
@@ -64,55 +80,61 @@ A desktop voice assistant developed using **Python** that recognizes voice comma
 
 **Features**
 
-- 🎤 Voice Command Recognition
-- 🔊 Text-to-Speech Responses
-- ▶️ YouTube Video Playback
-- 🎵 YouTube Music Playback
-- 🕐 Current Time Information
-- 📅 Current Date Information
-- 🌐 Website Opening
-- 🔍 Google Search
-- 📺 YouTube Search
-- 📖 Wikipedia Search
-- 📝 Open Notepad
-- 🧮 Open Calculator
-- 💻 Open Command Prompt
-- 🔄 Computer Restart
-- ⏻ Computer Shutdown
-- 😊 Basic Conversation Support
-- 🛑 Voice-Based Exit Command
-- ⚠️ Speech Recognition Error Handling
+* 🎤 Voice Command Recognition
+* 🔊 Text-to-Speech Responses
+* 🤖 Voice Assistant named Olly
+* ▶️ YouTube Video Playback
+* 🎵 YouTube Music Playback
+* 🕐 Current Time Information
+* 📅 Current Date Information
+* 🌐 Website Opening
+* 🔍 Google Search
+* 📺 YouTube Search
+* 📖 Wikipedia Search
+* 📝 Open Notepad
+* 🧮 Open Calculator
+* 💻 Open Command Prompt
+* 🔄 Computer Restart
+* ⏻ Computer Shutdown
+* 😊 Basic Conversation Support
+* 🛑 Voice-Based Exit Command
+* ⚠️ Speech Recognition and Network Error Handling
 
 ### 🌦️ Weather App
 
-A GUI-based weather application built using **Tkinter** that fetches real-time weather information using the **OpenWeatherMap API**.
+A GUI-based weather application built using **Python** and **Tkinter** that fetches real-time weather information using the **OpenWeatherMap API** based on the selected Indian city.
 
 **Features**
 
-- Live Weather Information
-- Temperature in Celsius
-- Weather Description
-- Humidity
-- Pressure
-- Wind Speed
-- Visibility
-- Error Handling
+* 🌍 Indian City Selection
+* 🌡️ Current Temperature in Celsius
+* 🌡️ Minimum and Maximum Temperature
+* 🤗 Feels Like Temperature
+* ☁️ Weather Condition and Description
+* 💧 Humidity
+* 🌬️ Wind Speed
+* 📏 Visibility in Kilometers
+* 🎈 Atmospheric Pressure
+* ⚠️ Error Handling for Invalid Requests and Network Issues
 
 ### 💬 Chat Application
 
-A Python-based real-time chat application built using **Socket Programming** and **Threading** that enables two users to communicate through a client-server architecture using **localhost**.
+A Python-based real-time chat application built using **Socket Programming**, **Threading**, and **Tkinter**. It uses a client-server architecture to allow users to communicate through a local network using TCP socket communication.
 
 **Features**
 
-- Real-Time Messaging
-- Two-User Communication
-- Client-Server Architecture
-- Timestamped Messages
-- Username Support
-- Bidirectional Communication
-- Graceful Disconnection Handling
-- Localhost Support
-- Thread-Based Communication
+* 💬 Real-Time Messaging
+* 👥 Two-User Communication
+* 🖥️ Client-Server Architecture
+* 👤 Username Support
+* 🔄 Bidirectional Communication
+* 🔌 Graceful Disconnection Handling
+* 🌐 Localhost Support
+* 🧵 Thread-Based Communication
+* 🪟 Tkinter Chat Interface
+* 📡 TCP Socket Communication
+* ⚠️ Connection Error Handling
+* 🚪 Quit/Disconnect Support
 
 ---
 
@@ -121,7 +143,7 @@ A Python-based real-time chat application built using **Socket Programming** and
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/OIBSIP.git
+git clone https://github.com/byteMaster-Soyel/OIBSIP.git
 ```
 
 ### Navigate to the Repository
@@ -130,15 +152,40 @@ git clone https://github.com/YOUR_GITHUB_USERNAME/OIBSIP.git
 cd OIBSIP
 ```
 
-### Run Any Project
+### Run the Projects
 
-Navigate to the desired project folder and execute the Python file.
+Navigate to the desired project folder and execute the corresponding Python file.
 
-Example:
+#### 🎙️ Voice Assistant
+
+```bash
+cd Python-Task1-VoiceAssistant
+pip install -r requirements.txt
+python voice_assistant.py
+```
+
+#### 🌦️ Weather App
 
 ```bash
 cd Python-Task4-WeatherApp
+pip install -r requirements.txt
 python weather_app.py
+```
+
+#### 💬 Chat Application
+
+Start the server first:
+
+```bash
+cd Python-Task5-ChatApplication
+python server.py 127.0.0.1
+```
+
+Then open another terminal and start the client:
+
+```bash
+cd Python-Task5-ChatApplication
+python client.py 127.0.0.1
 ```
 
 ---
@@ -147,11 +194,15 @@ python weather_app.py
 
 Screenshots for each project are available inside their respective project folders.
 
+* 🎙️ Voice Assistant → `Python-Task1-VoiceAssistant/screenshots/`
+* 🌦️ Weather App → `Python-Task4-WeatherApp/screenshots/`
+* 💬 Chat Application → `Python-Task5-ChatApplication/screenshots/`
+
 ---
 
 ## 👨‍💻 Author
 
-**Sk Soyel**
+**SK Soyel**
 
 📍 Kharagpur, West Bengal, India
 
@@ -161,4 +212,4 @@ Screenshots for each project are available inside their respective project folde
 
 ## ⭐ Acknowledgement
 
-I sincerely thank **Oasis Infobyte** for providing this internship opportunity and practical projects that helped me strengthen my Python programming and software development skills.
+I sincerely thank **Oasis Infobyte** for providing this internship opportunity and practical projects that helped me strengthen my Python programming, problem-solving, and software development skills.
