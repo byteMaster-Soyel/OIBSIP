@@ -45,11 +45,15 @@ OIBSIP/
 
 ## 🚀 Internship Projects
 
+<div align="center">
+
 | Task   | Project             | Status      |
 | ------ | ------------------- | ----------- |
 | Task 1 | 🎙️ Voice Assistant | ✅ Completed |
 | Task 4 | 🌦️ Weather App     | ✅ Completed |
 | Task 5 | 💬 Chat Application | ✅ Completed |
+
+</div>
 
 ---
 
@@ -202,7 +206,7 @@ Screenshots for each project are available inside their respective project folde
 
 ## 👨‍💻 Author
 
-**SK Soyel**
+**Sk Soyel**
 
 📍 Kharagpur, West Bengal, India
 
