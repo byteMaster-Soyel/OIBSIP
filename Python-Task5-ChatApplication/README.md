@@ -121,9 +121,9 @@ Your name: Soyel
 Welcome, Soyel! Getting ready to send and receive messages...
 
 Soyel: Hello!
-Alice: Hi Soyel!
+Oggy : Hi Soyel!
 Soyel: How are you?
-Alice: I am fine.
+Oggy : I am fine.
 ```
 
 Messages are transferred through the server using TCP socket communication.
@@ -349,6 +349,6 @@ This project is created for educational and internship purposes.
 
 ## 👨‍💻 Author
 
-**SK Soyel**
+**Sk Soyel**
 
 Python Programming Intern – Oasis Infobyte
