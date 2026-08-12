@@ -8,9 +8,7 @@ import tkinter as tk
 class Send(threading.Thread):
 
     #Listens for user input from command line
-
     #sock the connected sock object
-
     #name (str) : the username provided by the user 
 
     def __init__(self, sock, name):
