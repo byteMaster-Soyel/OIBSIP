@@ -114,14 +114,16 @@ def play_olly():
         talk(f"Today is {today}")
 
     # Open YouTube
-    elif "open youtube" in instruction:
+    elif ("open youtube" in instruction 
+          or "start youtube" in instruction):
 
         talk("Opening YouTube")
 
         webbrowser.open("https://www.youtube.com")
 
     # Open Google
-    elif "open google" in instruction:
+    elif ("open google" in instruction 
+        or "start youtube" in instruction):
 
         talk("Opening Google")
 
