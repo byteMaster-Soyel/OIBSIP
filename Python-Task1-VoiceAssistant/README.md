@@ -80,7 +80,7 @@ python voice_assistant.py
 
 ---
 
-## 📸 Screenshots
+<!-- ## 📸 Screenshots
 
 ### 🏠 Home Screen
 
@@ -93,7 +93,7 @@ python voice_assistant.py
 ### 📖 Wikipedia Result
 
 ![Wikipedia Result](screenshots/error.png.png)
----
+--- -->
 
 ### ⚠️ Notes
 ```
