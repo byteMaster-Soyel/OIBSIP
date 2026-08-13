@@ -233,7 +233,7 @@ Client 2
 ```
 
 ---
-
+<!-- 
 ## 📸 Screenshots
 
 ### 🖥️ Server
@@ -254,7 +254,7 @@ Add your multiple-client screenshot here:
 
 ![Multiple Clients](screenshots/client.png)
 
----
+--- -->
 
 ## ⚙️ Requirements
 
